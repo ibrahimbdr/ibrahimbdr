@@ -36,6 +36,26 @@ of enthusiastic interns.
 | [hermes-setup](https://github.com/Appit-labs/hermes-setup) | Wiring an AI agent to an app the boring-safe way: short-lived JWT, least-privilege DB role, three-assertion link check |
 | [code-scan](https://github.com/Appit-labs/code-scan) | Skylos (Python) + Fallow (TS/JS) as one prioritised report, with a baseline gate so CI fails only on new findings |
 
+
+**More of what I've built**
+
+| Repo | What it is |
+| --- | --- |
+| [work-os](https://github.com/Appit-labs/work-os) | Local-first personal AI & work OS — Tauri + React desktop client, FastAPI service with SQLAlchemy/alembic, APScheduler jobs, keyring-held secrets (private) |
+| [livekit-dev](https://github.com/Appit-labs/livekit-dev) | A local LiveKit stack that behaves like production: dev and prod-shaped compose files, token issuing, one-command bring-up |
+| [slack-livekit-bridge](https://github.com/Appit-labs/slack-livekit-bridge) | Slack ↔ LiveKit bridge — Bolt events in, room tokens out, Redis for presence and event de-duplication |
+| [byd-otd-desk](https://github.com/Appit-labs/byd-otd-desk) | Order-to-delivery tracker built spec-first from eight planning documents — NestJS + Fastify backend, frontend workspace |
+| [appit-skills](https://github.com/Appit-labs/appit-skills) | The twelve agent skills as one npm package + Claude Code marketplace |
+
+**How I work**
+
+- Spec first: a planning document per capability before the code, so review happens on the design and
+  not on a 900-line diff.
+- The boring infrastructure is the product: migrations, health checks, least-privilege database roles,
+  and a script for the thing you do every day.
+- Agents are tools with a cost: I measure what a workflow spends (tokens, tool calls, minutes) and cut
+  the part that is re-derivation rather than thinking.
+
 **Writing**
 
 - [Your Cloudflare Turnstile may never be issuing a token](https://dev.to/ibrahimbdr/your-cloudflare-turnstile-may-never-be-issuing-a-token-here-is-the-one-liner-that-tells-you-4h75)
